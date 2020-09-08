@@ -1,0 +1,252 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* Navigation Bar */
+
+
+
+
+.nav-item{
+    padding: 0 18px 0;
+   
+}
+
+.navbar-brand{
+     color: slateblue;
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light"; 
+    
+    
+}
+
+.zone {
+    cursor:pointer;
+     background-color: palegoldenrod;
+    font-size:1.5em;
+   
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.push{
+    margin-left: auto;
+}
+
+li{
+    padding: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: slateblue;
+}
+
+h1{
+    font-size:5rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
+}
+
+h2{
+    font-size: 2rem;
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal;
+    padding-bottom: 10px;
+}  
+
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    color:#11999E;
+}
+
+
+.footer-link{
+    color: slateblue;
+    text-decoration: none;
+    margin:0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color:#EAF6F6;
+    text-decoration: none;
+}
+
+hr{
+    border: dotted #EAF6F6 5px;
+    border-bottom: none;
+   width: 4%;
+   margin: 100px auto;
+    }
+
+p{
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align:left;
+}
+
+.skill{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.optometry{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+ 
+.top-container{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%110%; 
+    position: relative;
+    
+     }
+
+.mid-container {
+    padding-top: 50px;
+    background: lightyellow;
+    
+}
+
+.bottom-container{
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+ 
+/* .top-cloud{
+    position: absolute;
+    top: 30px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 260px;
+    bottom: 230px;
+
+} */
+
+
+.profile{
+
+    border-radius: 100%;
+}
+.skill{
+    border-radius:50%;
+}
+
+
+.optometry{
+    border-radius: 50%;
+}
+
+/* Skills Section */
+
+#skills{
+     background-color: ;
+     
+}
+
+.skills-image{
+    border-radius:2%;
+    width: 50%;
+    margin: 20px;
+}
+
+.skills-text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #11999E;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.85rem;
+    padding: 20px 0;
+}
+
+.classname{
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468ccf;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav{
+        font-size: 0.6em;
+    }
+}
+
+
